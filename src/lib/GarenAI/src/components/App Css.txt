@@ -1,0 +1,10 @@
+
+#image{
+  background-image : url('../public/bg2.jpg');
+  /* background-image: url('https://images.pexels.com/photos/913416/pexels-photo-913416.jpeg?cs=srgb&dl=pexels-minan1398-913416.jpg&fm=jpg'); */
+  background-image: url('https://p4.wallpaperbetter.com/wallpaper/735/5/110/flowers-pink-roses-buds-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}

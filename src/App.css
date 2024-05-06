@@ -1,0 +1,27 @@
+.none{
+  display: none;
+}
+.speak-container {
+  width: 10rem;
+  height: 10rem;
+  transition: all 2s ease-in-out;
+  animation: expand-shrink 4s infinite alternate;
+}
+
+@keyframes expand-shrink {
+  0% {
+      width: 2.5rem;
+      height: 2.5rem;
+  }
+  50% {
+      width: 10rem;
+      height: 10rem;
+  }
+  100% {
+      width: 2.5rem;
+      height: 2.5rem;
+  }
+}
+
+
+

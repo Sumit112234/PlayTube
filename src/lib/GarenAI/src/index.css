@@ -1,0 +1,207 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  /* background-color: #66BB6A; */
+  background-image: url('../public/bg2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #66BB6A;
+  
+
+  
+}
+
+/* Chat container styles */
+
+#image{
+  background-image : url('../public/bg2.jpg');
+  /* background-image: url('https://images.pexels.com/photos/913416/pexels-photo-913416.jpeg?cs=srgb&dl=pexels-minan1398-913416.jpg&fm=jpg'); */
+  /* background-image: url('https://p4.wallpaperbetter.com/wallpaper/735/5/110/flowers-pink-roses-buds-wallpaper-preview.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+#middleLogo{
+  background: url(GarenLoo.png);
+}
+.chat-container {
+  max-width: 1100px;
+  margin: 20px auto 0px auto;
+  padding: 20px;
+  background-color: #88dc8d;
+  border-radius: 8px 8px 0px 0px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  height: 63vh;
+  display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.messages-container{
+
+  display: flex;
+    flex-direction: column;
+}
+.AskGarenInputArea{
+  display: flex;
+  background-color: #e0ffe2;
+  width: 1100px;
+  padding: 15px;
+  border-radius: 0px 0px 8px 8px;
+  justify-content: center;
+}
+.chat-container::-webkit-scrollbar{
+ width: 10px;
+
+}
+.chat-container::-webkit-scrollbar-track{
+  background-color: #ffffff;
+}
+.chat-container::-webkit-scrollbar-thumb{
+  background-color: #66BB6A;
+  border-radius: 10px;
+  background-clip: content-box;
+}
+/* Individual chat message styles */
+.message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.user-message {
+  align-self: end;
+  background-color: #66BB6A;
+  color: #ffffff;
+  text-align: right;
+  width: fit-content;
+}
+
+.bot-message {
+  background-color: #1B5E20;
+  color: #ffffff;
+  text-align: left;
+  width: fit-content;
+}
+
+/* Input area styles */
+.messaging {
+  display: flex;
+
+  justify-content: center;
+}
+
+.messageGarenInput {
+  width:800px;
+
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+
+ 
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/* Navbar and header */
+.main-header{
+
+  background-color: #e0ffe2;
+  height: 100px;
+  display: flex;
+  align-items: end;
+}
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+  color: green;
+}
+
+.nav-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: green;
+  font-size: 20px;
+  padding: 10px 60px;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #f6f6f6;
+}
+
+/* -------------homePage------------- */
+/* styles.css */
+
+.container-home {
+  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  height: 629px;
+}
+
+.garen-logo {
+  background: white;
+  border-radius: 40px;
+  width: 250px;
+  height: 150px;
+}
+
+#searchbar {
+  width: 580px;
+  height: 40px;
+  border: 1px solid #cdcdcd;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  outline: none;
+}
+#search_button:hover{
+ background-color:green;
+ color: white;
+}
+#search_button{
+  cursor: pointer;
+  font-weight: lighter;
+  color: green;
+  padding: 11px;
+  font-size: 16px;
+  background: #FAFAFA;
+  border: 1px solid #dcdcdc;
+  border-radius: 11px;
+  margin-top: 10px;
+}
